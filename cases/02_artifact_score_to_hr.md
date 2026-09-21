@@ -1,6 +1,6 @@
 # 伪影识别如何验证心率价值：一次相同覆盖率的比较
 
-> 作品展示草稿；仅供私有仓库存档，公开范围待确认。研究源码已纳入 [源码目录](../research/README.md)，运行条件见 [运行说明](../RUNNING.md)；完整历史实验记录仍保留于本地。[返回作品首页](../README.md)
+> 作品展示草稿；仅供私有仓库存档，公开范围待确认。研究源码已纳入 [源码目录](../research/README.md)，运行条件见 [运行说明](../RUNNING.md)；现存历史材料见 [资料包](../ARTIFACTS.md)，缺失项见 [复现核查](../REPRODUCTION_AUDIT.md)。[返回作品首页](../README.md)
 
 ## 研究问题
 
@@ -50,7 +50,7 @@ S14/S15 虽未参与 SMoLK 训练，但已用于历史基线评价；两位受�
 
 执行代码见 [compare_smolk_hr_gating_v0.py](../research/02_论文复现与验证/02_接入自己基线后的验证/01_代码/compare_smolk_hr_gating_v0.py)。文件名保留历史 v0，但当前脚本写入正式 smolk_hr_comparison_v1 目录；它需要先生成冻结规则结果、时间映射和 SMoLK 权重。
 
-以下历史结果资料保留于本地研究工程，本展示包未收录：
+以下结果在 02 号资料包中，冻结规则及基线窗口在 01 号包；重算主对照还需要原始 S11–S15 PKL：
 
 - 时间映射：dalia_mapping/summary.json。
 - 正式对照：smolk_hr_comparison_v1/summary.json。

@@ -1,6 +1,6 @@
 # SMoLK 复现：先对齐评价口径，再比较论文成绩
 
-> 作品展示草稿；仅供私有仓库存档，公开范围待确认。研究源码已纳入 [源码目录](../research/README.md)，运行条件见 [运行说明](../RUNNING.md)；完整历史实验记录仍保留于本地。[返回作品首页](../README.md)
+> 作品展示草稿；仅供私有仓库存档，公开范围待确认。研究源码已纳入 [源码目录](../research/README.md)，运行条件见 [运行说明](../RUNNING.md)；现存历史材料见 [资料包](../ARTIFACTS.md)，缺失项见 [复现核查](../REPRODUCTION_AUDIT.md)。[返回作品首页](../README.md)
 
 ## 研究问题
 
@@ -50,6 +50,6 @@ WESAD/TROIKA 沿用发布数组，未完整重建其原始预处理；当前结�
 30 秒标准化及居中运算涉及未来信息，不能凭参数少就称为严格因果实时算法。
 模型设计归原作者；本案例新增的是实现核查、受控评价和工程解释。
 
-- 正式配置、指标与数据校验：full_seed0/result.json，保留于本地，本展示包未收录。
-- 执行代码：[run_full.py](../research/02_论文复现与验证/01_SMoLK论文复现/run_full.py) 及同目录 run_smoke.py 已收录；原研究长篇说明仍在本地。
+- 正式配置、指标与数据校验：02 号资料包中的 full_seed0/result.json；同包提供权重、checkpoint 和固定回放文件。
+- 执行代码：[run_full.py](../research/02_论文复现与验证/01_SMoLK论文复现/run_full.py) 及同目录 run_smoke.py 已收录；原工程 README 与部署说明也保存在 02 号资料包中；其中旧本机路径仅用于历史溯源。
 - [SMoLK 论文](https://arxiv.org/html/2307.05385v4)；[作者固定 notebook](https://github.com/SullyChen/SMoLK/blob/4aa63d72d5fedb80bd5ba6a905dcc75f1cafd12a/PPG%20Segmentation.ipynb)
