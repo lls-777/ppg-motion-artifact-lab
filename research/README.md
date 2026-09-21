@@ -4,7 +4,7 @@
 
 本目录按原工程结构保存 35 个 Python 脚本，逐字节复制，不拆分函数、不改变算法与实验规则。校验值见 [SOURCE_SHA256SUMS](../SOURCE_SHA256SUMS)。
 
-先看心率基线，再看 SMoLK，最后看 ResidualPPG；完整 SQI＋ACC、时间映射、V3 和一致性回放的工件依赖见运行说明。保留全部源码不表示全部历史工件也已提供。
+先看心率基线，再看 SMoLK，最后看 ResidualPPG；完整 SQI＋ACC、时间映射、V3 和一致性回放的工件依赖见运行说明。现存配置、权重和结果见 [资料包](../ARTIFACTS.md)，缺失历史输出与旧源码差异见 [复现核查](../REPRODUCTION_AUDIT.md)。
 
 ## 第一阶段：自主基线
 
