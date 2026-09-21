@@ -22,3 +22,7 @@ research/90_共享原始数据/
 # Local credentials/configuration
 .env
 .env.*
+
+# Release attachments and local evidence review copies
+release-assets/
+evidence-view/
